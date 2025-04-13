@@ -1,202 +1,307 @@
 [
-  {
-    "title": "\nReverse a String #1",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #2",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #3",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #4",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #5",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #6",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #7",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #8",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #9",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #10",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #11",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #12",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #13",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #14",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #15",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #16",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #17",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #18",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #19",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #20",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #21",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #22",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #23",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #24",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #25",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #26",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #27",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #28",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #29",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #30",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #31",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #32",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #33",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #34",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #35",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #36",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #37",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #38",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #39",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #40",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #41",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #42",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #43",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #44",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #45",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  },
-  {
-    "title": "Reverse a String #46",
-    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
-  },
-  {
-    "title": "Swap Two Variables #47",
-    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
-  },
-  {
-    "title": "Check for Palindrome #48",
-    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
-  },
-  {
-    "title": "Count Elements in a List #49",
-    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
-  },
-  {
-    "title": "Flatten a List of Lists #50",
-    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
-  }
-]
+    {"title": "Reverse a String (Python) #1", "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"},
+    {"title": "Swap Two Variables (Python) #2", "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"},
+    {"title": "Check for Palindrome (Python) #3", "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"},
+    {"title": "Count Elements in a List (Python) #4", "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"},
+    {"title": "Flatten a List of Lists (Python) #5", "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"},
+    {"title": "Find the Largest Element in a List (Python) #6", "code": "```python\nnumbers = [1, 5, 3, 9, 2]\nprint(max(numbers))\n```"},
+    {"title": "Sort a List (Python) #7", "code": "```python\nnumbers = [4, 2, 9, 1, 5]\nnumbers.sort()\nprint(numbers)\n```"},
+    {"title": "Create a Simple Class (Python) #8", "code": "```python\nclass Dog:\n    def __init__(self, name, breed):\n        self.name = name\n        self.breed = breed\n\ndog = Dog('Buddy', 'Labrador')\nprint(dog.name, dog.breed)\n```"},
+    {"title": "Filter Even Numbers in a List (Python) #9", "code": "```python\nnumbers = [1, 2, 3, 4, 5, 6]\neven_numbers = [n for n in numbers if n % 2 == 0]\nprint(even_numbers)\n```"},
+    {"title": "Read a File (Python) #10", "code": "```python\nwith open('file.txt', 'r') as file:\n    content = file.read()\nprint(content)\n```"},
+    {"title": "Write to a File (Python) #11", "code": "```python\nwith open('file.txt', 'w') as file:\n    file.write('Hello, world!')\n```"},
+    {"title": "Convert String to Integer (Python) #12", "code": "```python\nstring_number = '123'\ninteger_number = int(string_number)\nprint(integer_number)\n```"},
+    {"title": "Check if a List is Empty (Python) #13", "code": "```python\nmy_list = []\nif not my_list:\n    print('List is empty')\n```"},
+    {"title": "Find Common Elements in Two Lists (Python) #14", "code": "```python\nlist1 = [1, 2, 3, 4]\nlist2 = [3, 4, 5, 6]\ncommon = [x for x in list1 if x in list2]\nprint(common)\n```"},
+    {"title": "Generate Random Number (Python) #15", "code": "```python\nimport random\nrandom_number = random.randint(1, 100)\nprint(random_number)\n```"},
+    {"title": "Find Factorial (Python) #16", "code": "```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\nprint(factorial(5))\n```"},
+    {"title": "Prime Check (Python) #17", "code": "```python\ndef is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nprint(is_prime(29))\n```"},
+    {"title": "Fibonacci Sequence (Python) #18", "code": "```python\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(6))\n```"},
+    {"title": "Sum of List (Python) #19", "code": "```python\nnumbers = [1, 2, 3, 4, 5]\nsum_numbers = sum(numbers)\nprint(sum_numbers)\n```"},
+    {"title": "Remove Duplicates from List (Python) #20", "code": "```python\nitems = [1, 2, 2, 3, 4, 5, 5]\nunique_items = list(set(items))\nprint(unique_items)\n```"},
+    {"title": "Print Prime Numbers up to n (Python) #21", "code": "```python\ndef primes_up_to(n):\n    for num in range(2, n):\n        if is_prime(num):\n            print(num)\n\nprimes_up_to(30)\n```"},
+    {"title": "Sum of Squares (Python) #22", "code": "```python\nnumbers = [1, 2, 3, 4, 5]\nsquare_sum = sum([x**2 for x in numbers])\nprint(square_sum)\n```"},
+    {"title": "Hello World (Java) #23", "code": "```java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println('Hello, World!');\n    }\n}\n```"}, 
+    {"title": "Swap Two Variables (Java) #24", "code": "```java\npublic class Swap {\n    public static void main(String[] args) {\n        int a = 5, b = 10;\n        int temp = a;\n        a = b;\n        b = temp;\n        System.out.println(a + ' ' + b);\n    }\n}\n```"},
+    {"title": "Check for Palindrome (Java) #25", "code": "```java\npublic class Palindrome {\n    public static boolean isPalindrome(String s) {\n        return s.equals(new StringBuilder(s).reverse().toString());\n    }\n    public static void main(String[] args) {\n        System.out.println(isPalindrome('level'));\n    }\n}\n```"},
+    {"title": "Array Sum (Java) #26", "code": "```java\npublic class ArraySum {\n    public static void main(String[] args) {\n        int[] numbers = {1, 2, 3, 4, 5};\n        int sum = 0;\n        for (int num : numbers) {\n            sum += num;\n        }\n        System.out.println(sum);\n    }\n}\n```"},
+    {"title": "Factorial (Java) #27", "code": "```java\npublic class Factorial {\n    public static int factorial(int n) {\n        if (n == 0) {\n            return 1;\n        } else {\n            return n * factorial(n - 1);\n        }\n    }\n    public static void main(String[] args) {\n        System.out.println(factorial(5));\n    }\n}\n```"},
+    {"title": "Fibonacci Sequence (Java) #28", "code": "```java\npublic class Fibonacci {\n    public static int fibonacci(int n) {\n        if (n <= 1) {\n            return n;\n        }\n        return fibonacci(n - 1) + fibonacci(n - 2);\n    }\n    public static void main(String[] args) {\n        System.out.println(fibonacci(6));\n    }\n}\n```"},
+    {"title": "Find Maximum Value in Array (Java) #29", "code": "```java\npublic class MaxValue {\n    public static void main(String[] args) {\n        int[] numbers = {5, 3, 7, 2, 8};\n        int max = numbers[0];\n        for (int num : numbers) {\n            if (num > max) {\n                max = num;\n            }\n        }\n        System.out.println(max);\n    }\n}\n```"},
+    {"title": "Reverse Array (Java) #30", "code": "```java\npublic class ReverseArray {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n        for (int i = arr.length - 1; i >= 0; i--) {\n            System.out.print(arr[i] + ' ');\n        }\n    }\n}\n```"},
+    {"title": "Array to String (Java) #31", "code": "```java\npublic class ArrayToString {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4};\n        String str = Arrays.toString(arr);\n        System.out.println(str);\n    }\n}\n```"},
+    {"title": "Sum of Even Numbers (Java) #32", "code": "```java\npublic class SumEvenNumbers {\n    public static void main(String[] args) {\n        int[] numbers = {1, 2, 3, 4, 5};\n        int sum = 0;\n        for (int num : numbers) {\n            if (num % 2 == 0) {\n                sum += num;\n            }\n        }\n        System.out.println(sum);\n    }\n}\n```"},
+      {
+        "title": "Check if a Number is Prime (Python) #33",
+        "code": "```python\nnum = 29\nis_prime = all(num % i != 0 for i in range(2, num))\nprint(is_prime)\n```"
+      },
+      {
+        "title": "Filter Odd Numbers (JavaScript) #34",
+        "code": "```javascript\nlet numbers = [1, 2, 3, 4, 5, 6];\nlet oddNumbers = numbers.filter(n => n % 2 !== 0);\nconsole.log(oddNumbers);\n```"
+      },
+      {
+        "title": "Find Length of String (Python) #35",
+        "code": "```python\ntext = 'Hello World'\nlength = len(text)\nprint(length)\n```"
+      },
+      {
+        "title": "Reverse an Array (Java) #36",
+        "code": "```java\nint[] arr = {1, 2, 3, 4, 5};\nfor (int i = arr.length - 1; i >= 0; i--) {\n    System.out.print(arr[i] + \" \");\n}\n```"
+      },
+      {
+        "title": "Swap Two Elements in Array (JavaScript) #37",
+        "code": "```javascript\nlet arr = [1, 2, 3, 4];\n[arr[0], arr[1]] = [arr[1], arr[0]];\nconsole.log(arr);\n```"
+      },
+      {
+        "title": "Sum of Numbers in Array (Python) #38",
+        "code": "```python\narr = [1, 2, 3, 4, 5]\nsum_of_arr = sum(arr)\nprint(sum_of_arr)\n```"
+      },
+      {
+        "title": "Check for Even Number (Java) #39",
+        "code": "```java\nint num = 10;\nif (num % 2 == 0) {\n    System.out.println(\"Even\");\n} else {\n    System.out.println(\"Odd\");\n}\n```"
+      },
+      {
+        "title": "Find Maximum in Array (JavaScript) #40",
+        "code": "```javascript\nlet arr = [5, 3, 8, 1];\nlet max = Math.max(...arr);\nconsole.log(max);\n```"
+      },
+      {
+        "title": "Count Occurrences in List (Python) #41",
+        "code": "```python\nfrom collections import Counter\nitems = ['a', 'b', 'a', 'b', 'c', 'a']\nprint(Counter(items))\n```"
+      },
+      {
+        "title": "Find Common Elements in Arrays (JavaScript) #42",
+        "code": "```javascript\nlet arr1 = [1, 2, 3, 4];\nlet arr2 = [3, 4, 5, 6];\nlet common = arr1.filter(value => arr2.includes(value));\nconsole.log(common);\n```"
+      },
+      {
+        "title": "Merge Two Dictionaries (Python) #43",
+        "code": "```python\ndict1 = {'a': 1, 'b': 2}\ndict2 = {'b': 3, 'c': 4}\ndict3 = {**dict1, **dict2}\nprint(dict3)\n```"
+      },
+      {
+        "title": "Count Vowels in a String (Java) #44",
+        "code": "```java\nString str = \"Hello World\";\nint count = 0;\nfor (char c : str.toCharArray()) {\n    if (\"AEIOUaeiou\".indexOf(c) != -1) {\n        count++;\n    }\n}\nSystem.out.println(count);\n```"
+      },
+      {
+        "title": "Count Words in a String (JavaScript) #45",
+        "code": "```javascript\nlet str = 'Hello World';\nlet words = str.split(' ').length;\nconsole.log(words);\n```"
+      },
+      {
+        "title": "Convert List to Set (Python) #46",
+        "code": "```python\nlst = [1, 2, 3, 3, 4]\nset_from_list = set(lst)\nprint(set_from_list)\n```"
+      },
+      {
+        "title": "Convert List to Array (Java) #47",
+        "code": "```java\nimport java.util.List;\nimport java.util.ArrayList;\nList<Integer> list = new ArrayList<>();\nlist.add(1);\nlist.add(2);\nlist.add(3);\nInteger[] arr = list.toArray(new Integer[0]);\nSystem.out.println(Arrays.toString(arr));\n```"
+      },
+      {
+        "title": "Convert Array to String (JavaScript) #48",
+        "code": "```javascript\nlet arr = [1, 2, 3];\nlet str = arr.join(',');\nconsole.log(str);\n```"
+      },
+      {
+        "title": "Fibonacci Sequence (Python) #49",
+        "code": "```python\nn = 10\nfib = [0, 1]\nfor i in range(2, n):\n    fib.append(fib[i-1] + fib[i-2])\nprint(fib)\n```"
+      },
+      {
+        "title": "Reverse a String (JavaScript) #50",
+        "code": "```javascript\nlet str = 'Hello';\nlet reversed = str.split('').reverse().join('');\nconsole.log(reversed);\n```"
+      },
+      {
+        "title": "Print Star Pattern (Java) #51",
+        "code": "```java\nfor (int i = 1; i <= 5; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}\n```"
+      },
+      {
+        "title": "Sum of Numbers in Array (JavaScript) #52",
+        "code": "```javascript\nlet arr = [1, 2, 3, 4, 5];\nlet sum = arr.reduce((acc, val) => acc + val, 0);\nconsole.log(sum);\n```"
+      },
+      {
+        "title": "Find the Largest Number (Python) #53",
+        "code": "```python\nnumbers = [10, 20, 30, 40]\nlargest = max(numbers)\nprint(largest)\n```"
+      },
+      {
+        "title": "Check for Leap Year (Java) #54",
+        "code": "```java\nint year = 2024;\nif ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {\n    System.out.println(\"Leap Year\");\n} else {\n    System.out.println(\"Not a Leap Year\");\n}\n```"
+      },
+      {
+        "title": "Calculate Factorial (JavaScript) #55",
+        "code": "```javascript\nlet n = 5;\nlet fact = 1;\nfor (let i = 1; i <= n; i++) {\n    fact *= i;\n}\nconsole.log(fact);\n```"
+      },
+      {
+        "title": "Palindrome Check (Python) #56",
+        "code": "```python\ntext = 'madam'\nif text == text[::-1]:\n    print('Palindrome')\nelse:\n    print('Not Palindrome')\n```"
+      },
+      {
+        "title": "Reverse a String (Java) #57",
+        "code": "```java\nString str = \"Hello\";\nString reversed = new StringBuilder(str).reverse().toString();\nSystem.out.println(reversed);\n```"
+      },
+      {
+        "title": "Capitalize First Letter (JavaScript) #58",
+        "code": "```javascript\nlet str = 'hello';\nlet capitalized = str.charAt(0).toUpperCase() + str.slice(1);\nconsole.log(capitalized);\n```"
+      },
+      {
+        "title": "Find Factorial (Python) #59",
+        "code": "```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\nprint(factorial(5))\n```"
+      },
+      {
+        "title": "Java: Print Fibonacci Series #60",
+        "code": "```java\nint n = 10;\nint a = 0, b = 1;\nSystem.out.print(a + \" \" + b);\nfor (int i = 2; i < n; i++) {\n    int next = a + b;\n    System.out.print(\" \" + next);\n    a = b;\n    b = next;\n}\n```"
+      },
+      {
+        "title": "JavaScript: Check if String is Palindrome #61",
+        "code": "```javascript\nlet str = 'level';\nlet reversed = str.split('').reverse().join('');\nif (str === reversed) {\n    console.log('Palindrome');\n} else {\n    console.log('Not Palindrome');\n}\n```"
+      },
+      {
+        "title": "Python: Remove Duplicates from List #62",
+        "code": "```python\nlst = [1, 2, 3, 3, 4]\nunique_lst = list(set(lst))\nprint(unique_lst)\n```"
+      },
+      {
+        "title": "Find Maximum in Array (Java) #63",
+        "code": "```java\nint[] arr = {1, 4, 6, 9, 3};\nint max = arr[0];\nfor (int i = 1; i < arr.length; i++) {\n    if (arr[i] > max) {\n        max = arr[i];\n    }\n}\nSystem.out.println(max);\n```"
+      },
+      {
+        "title": "Reverse List (Python) #64",
+        "code": "```python\nlst = [1, 2, 3, 4]\nlst.reverse()\nprint(lst)\n```"
+      },
+      {
+        "title": "Sort Array in Ascending Order (JavaScript) #65",
+        "code": "```javascript\nlet arr = [5, 3, 8, 1, 4];\narr.sort((a, b) => a - b);\nconsole.log(arr);\n```"
+      },
+      {
+        "title": "List Comprehension Example (Python) #66",
+        "code": "```python\nnumbers = [1, 2, 3, 4]\nsquared = [x ** 2 for x in numbers]\nprint(squared)\n```"
+      },
+      {
+        "title": "Swap Two Variables (Java) #67",
+        "code": "```java\nint a = 10, b = 20;\nint temp = a;\na = b;\nb = temp;\nSystem.out.println(a + \" \" + b);\n```"
+      },
+      {
+        "title": "Check if Array Contains Element (JavaScript) #68",
+        "code": "```javascript\nlet arr = [1, 2, 3, 4];\nlet containsThree = arr.includes(3);\nconsole.log(containsThree);\n```"
+      },
+      {
+        "title": "Find Index of Element in List (Python) #69",
+        "code": "```python\nlst = [10, 20, 30, 40]\nindex = lst.index(30)\nprint(index)\n```"
+      },
+      {
+        "title": "Sum of Array Elements (Java) #70",
+        "code": "```java\nint[] arr = {1, 2, 3, 4, 5};\nint sum = 0;\nfor (int num : arr) {\n    sum += num;\n}\nSystem.out.println(sum);\n```"
+      },
+      {
+        "title": "Convert String to Lowercase (JavaScript) #71",
+        "code": "```javascript\nlet str = 'HELLO';\nlet lower = str.toLowerCase();\nconsole.log(lower);\n```"
+      },
+      {
+        "title": "Find Maximum of Two Numbers (Python) #72",
+        "code": "```python\nx = 10\ny = 20\nmax_num = max(x, y)\nprint(max_num)\n```"
+      },
+      {
+        "title": "Print Pyramid Pattern (Java) #73",
+        "code": "```java\nint n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= n - i; j++) {\n        System.out.print(\" \");\n    }\n    for (int j = 1; j <= (2 * i - 1); j++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}\n```"
+      },
+      {
+        "title": "Filter Positive Numbers (JavaScript) #74",
+        "code": "```javascript\nlet arr = [-1, 2, -3, 4, 5];\nlet positive = arr.filter(n => n > 0);\nconsole.log(positive);\n```"
+      },
+      {
+        "title": "Count Words in String (Python) #75",
+        "code": "```python\ntext = 'hello world hello'\nword_count = len(text.split())\nprint(word_count)\n```"
+      },
+      {
+        "title": "Check If String is Empty (Java) #76",
+        "code": "```java\nString str = \"\";\nif (str.isEmpty()) {\n    System.out.println(\"String is empty\");\n} else {\n    System.out.println(\"String is not empty\");\n}\n```"
+      },
+      {
+        "title": "Remove Duplicates from Array (JavaScript) #77",
+        "code": "```javascript\nlet arr = [1, 2, 3, 3, 4, 5, 5];\nlet uniqueArr = [...new Set(arr)];\nconsole.log(uniqueArr);\n```"
+      },
+      {
+        "title": "Multiply Elements of List (Python) #78",
+        "code": "```python\nfrom functools import reduce\nnumbers = [1, 2, 3, 4]\nproduct = reduce(lambda x, y: x * y, numbers)\nprint(product)\n```"
+      },
+      {
+        "title": "Convert Array to List (Java) #79",
+        "code": "```java\nint[] arr = {1, 2, 3, 4};\nList<Integer> list = Arrays.asList(1, 2, 3, 4);\nSystem.out.println(list);\n```"
+      },
+      {
+        "title": "Find Minimum in Array (JavaScript) #80",
+        "code": "```javascript\nlet arr = [10, 2, 8, 5];\nlet min = Math.min(...arr);\nconsole.log(min);\n```"
+      },
+      {
+        "title": "Generate Random Number (Python) #81",
+        "code": "```python\nimport random\nrandom_number = random.randint(1, 10)\nprint(random_number)\n```"
+      },
+      {
+        "title": "Count Occurrences in Array (Java) #82",
+        "code": "```java\nint[] arr = {1, 2, 2, 3, 3, 3, 4};\nMap<Integer, Integer> occurrences = new HashMap<>();\nfor (int num : arr) {\n    occurrences.put(num, occurrences.getOrDefault(num, 0) + 1);\n}\nSystem.out.println(occurrences);\n```"
+      },
+      {
+        "title": "Create Object from Array (JavaScript) #83",
+        "code": "```javascript\nlet arr = [['name', 'John'], ['age', 30]];\nlet obj = Object.fromEntries(arr);\nconsole.log(obj);\n```"
+      },
+      {
+        "title": "Calculate Average of List (Python) #84",
+        "code": "```python\nnumbers = [1, 2, 3, 4]\navg = sum(numbers) / len(numbers)\nprint(avg)\n```"
+      },
+      {
+        "title": "Reverse a String (Java) #85",
+        "code": "```java\nString str = \"Hello\";\nString reversed = new StringBuilder(str).reverse().toString();\nSystem.out.println(reversed);\n```"
+      },
+      {
+        "title": "Remove Element from Array (JavaScript) #86",
+        "code": "```javascript\nlet arr = [1, 2, 3, 4];\narr.splice(arr.indexOf(3), 1);\nconsole.log(arr);\n```"
+      },
+      {
+        "title": "Create Dictionary from List of Tuples (Python) #87",
+        "code": "```python\nlst = [('a', 1), ('b', 2)]\ndict_from_list = dict(lst)\nprint(dict_from_list)\n```"
+      },
+      {
+        "title": "Check for Armstrong Number (Java) #88",
+        "code": "```java\nint num = 153;\nint sum = 0, temp, remainder, digits = String.valueOf(num).length();\ntemp = num;\nwhile (temp != 0) {\n    remainder = temp % 10;\n    sum += Math.pow(remainder, digits);\n    temp /= 10;\n}\nif (sum == num) {\n    System.out.println(num + \" is an Armstrong number\");\n} else {\n    System.out.println(num + \" is not an Armstrong number\");\n}\n```"
+      },
+      {
+        "title": "Merge Arrays (JavaScript) #89",
+        "code": "```javascript\nlet arr1 = [1, 2, 3];\nlet arr2 = [4, 5, 6];\nlet merged = [...arr1, ...arr2];\nconsole.log(merged);\n```"
+      },
+      {
+        "title": "Check if Element Exists in List (Python) #90",
+        "code": "```python\nlst = [1, 2, 3, 4]\nprint(3 in lst)\n```"
+      },
+      {
+        "title": "Sum of Digits of a Number (Java) #91",
+        "code": "```java\nint num = 123;\nint sum = 0;\nwhile (num > 0) {\n    sum += num % 10;\n    num /= 10;\n}\nSystem.out.println(sum);\n```"
+      },
+      {
+        "title": "Create a Simple Function (JavaScript) #92",
+        "code": "```javascript\nfunction greet(name) {\n    console.log('Hello, ' + name);\n}\ngreet('Alice');\n```"
+      },
+      {
+        "title": "Remove Item from Dictionary (Python) #93",
+        "code": "```python\ndict = {'a': 1, 'b': 2, 'c': 3}\ndel dict['b']\nprint(dict)\n```"
+      },
+      {
+        "title": "Print Multiplication Table (Java) #94",
+        "code": "```java\nint n = 5;\nfor (int i = 1; i <= 10; i++) {\n    System.out.println(n + \" * \" + i + \" = \" + (n * i));\n}\n```"
+      },
+      {
+        "title": "Map Example (JavaScript) #95",
+        "code": "```javascript\nlet map = new Map();\nmap.set('name', 'Alice');\nmap.set('age', 25);\nconsole.log(map);\n```"
+      },
+      {
+        "title": "Filter Even Numbers (Python) #96",
+        "code": "```python\nnumbers = [1, 2, 3, 4, 5]\neven_numbers = list(filter(lambda x: x % 2 == 0, numbers))\nprint(even_numbers)\n```"
+      },
+      {
+        "title": "ASCII-Kunstgenerator aus Text (Python) #97",
+        "code": "```python\nfrom pyfiglet import figlet_format\n\ntext = input(\"Gib deinen Text ein: \")\nprint(figlet_format(text))\n```"
+      },
+      {
+        "title": "Prime-Zahlen mit der Sieve of Eratosthenes Methode (Python) #98",
+        "code": "```python\ndef sieve(n):\n    prime = [True for _ in range(n+1)]\n    p = 2\n    while p * p <= n:\n        if prime[p]:\n            for i in range(p * p, n+1, p):\n                prime[i] = False\n        p += 1\n    return [i for i in range(2, n) if prime[i]]\n\nprint(sieve(50))\n```"
+      },
+      {
+        "title": "Konfetti-Effekt mit Canvas (JavaScript) #99",
+        "code": "```javascript\nconst canvas = document.getElementById('confetti');\nconst ctx = canvas.getContext('2d');\nlet particles = Array.from({length: 100}, () => ({\n  x: Math.random() * canvas.width,\n  y: Math.random() * canvas.height,\n  r: Math.random() * 6 + 4,\n  d: Math.random() * 100\n}));\n\nfunction draw() {\n  ctx.clearRect(0, 0, canvas.width, canvas.height);\n  particles.forEach(p => {\n    ctx.beginPath();\n    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);\n    ctx.fillStyle = `hsl(${Math.random() * 360}, 100%, 50%)`;\n    ctx.fill();\n    p.y += Math.cos(p.d);\n    p.x += Math.sin(p.d);\n    if (p.y > canvas.height) p.y = 0;\n  });\n  requestAnimationFrame(draw);\n}\ndraw();\n```"
+      },
+      {
+        "title": "Palindrom-Prüfer mit StringBuilder (Java) #100",
+        "code": "```java\npublic class PalindromChecker {\n    public static void main(String[] args) {\n        String input = \"lagerregal\";\n        String reversed = new StringBuilder(input).reverse().toString();\n        if(input.equals(reversed)) {\n            System.out.println(input + \" ist ein Palindrom!\");\n        } else {\n            System.out.println(input + \" ist kein Palindrom.\");\n        }\n    }\n}\n```"
+      }
+    
+    ]

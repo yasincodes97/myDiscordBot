@@ -2,20 +2,16 @@ import discord
 import os
 from discord.ext import commands
 import asyncio
-import datetime
 import json
 
 sec_token = os.environ['DISCORD_TOKEN']
 sec_channel = os.environ['CHANNEL_ID']
 snippets_path = "snippets.json"
 state_path = "state.json"
-
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='<', intents=intents)
 channel = bot.get_channel(int(sec_channel))
-current_index = 0
-
 initial_state = {"current_index": 0}
 
 
@@ -55,10 +51,7 @@ async def send_snippet():
         current_index += 1
         save_state(current_index)
 
-        await asyncio.sleep()
-
-
-#86400
+        await asyncio.sleep(86400)
 
 
 @bot.command()
@@ -72,7 +65,6 @@ async def reset_index(ctx):
 @bot.event
 async def on_ready():
     print(f'Bot is logged in as {bot.user}')
-
     bot.loop.create_task(send_snippet())
 
 
