@@ -1,0 +1,202 @@
+[
+  {
+    "title": "\nReverse a String #1",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #2",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #3",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #4",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #5",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #6",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #7",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #8",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #9",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #10",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #11",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #12",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #13",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #14",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #15",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #16",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #17",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #18",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #19",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #20",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #21",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #22",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #23",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #24",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #25",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #26",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #27",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #28",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #29",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #30",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #31",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #32",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #33",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #34",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #35",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #36",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #37",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #38",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #39",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #40",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #41",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #42",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #43",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #44",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #45",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  },
+  {
+    "title": "Reverse a String #46",
+    "code": "```python\ntext = 'Hello'\nreversed_text = text[::-1]\nprint(reversed_text)\n```"
+  },
+  {
+    "title": "Swap Two Variables #47",
+    "code": "```python\na, b = 5, 10\na, b = b, a\nprint(a, b)\n```"
+  },
+  {
+    "title": "Check for Palindrome #48",
+    "code": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('level'))\n```"
+  },
+  {
+    "title": "Count Elements in a List #49",
+    "code": "```python\nitems = ['a', 'b', 'a', 'c', 'b']\nfrom collections import Counter\nprint(Counter(items))\n```"
+  },
+  {
+    "title": "Flatten a List of Lists #50",
+    "code": "```python\nnested = [[1, 2], [3, 4], [5]]\nflat = [item for sublist in nested for item in sublist]\nprint(flat)\n```"
+  }
+]
