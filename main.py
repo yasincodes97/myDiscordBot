@@ -1,7 +1,7 @@
 import discord
 import os
 from discord.ext import commands
-import AsyncIOScheduler
+import asyncio
 import datetime
 
 
@@ -12,6 +12,11 @@ sec_channel = os.environ['DISCORD_CHANNEL']
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='<', intents=intents)
+
+code_snippets = [
+
+    
+]
 
 @bot.command()
 async def ping(msg):
