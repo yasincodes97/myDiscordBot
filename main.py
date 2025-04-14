@@ -3,6 +3,7 @@ import os
 from discord.ext import commands
 import asyncio
 import json
+from server import stay_alive
 
 sec_token = os.environ['DISCORD_TOKEN']
 sec_channel = os.environ['CHANNEL_ID']
@@ -67,10 +68,10 @@ async def on_ready():
     print(f'Bot is logged in as {bot.user}')
     bot.loop.create_task(send_snippet())
 
-
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
 
 
+stay_alive()
 bot.run(sec_token)
