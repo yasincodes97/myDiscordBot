@@ -11,6 +11,7 @@ snippets_path = "snippets.json"
 state_path = "state.json"
 intents = discord.Intents.default()
 intents.message_content = True
+intents.members = True
 bot = commands.Bot(command_prefix='<', intents=intents)
 channel = bot.get_channel(int(sec_channel))
 initial_state = {"current_index": 0}
@@ -67,6 +68,12 @@ async def reset_index(ctx):
 async def on_ready():
     print(f'Bot is logged in as {bot.user}')
     bot.loop.create_task(send_snippet())
+
+@bot.event
+async def on_member_join(member):
+    channel = discord.utils.get(member.guild.text_channels, name="vorstellungsrunde")
+    if channel:
+        await channel.send(f"Welcome to the Tech-Hood family, {member.mention}! 🎉")
 
 @bot.command()
 async def ping(ctx):
