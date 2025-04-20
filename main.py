@@ -9,7 +9,6 @@ from server import stay_alive
 sec_token = os.environ['DISCORD_TOKEN']
 sec_channel = os.environ['CHANNEL_ID']
 snippets_path = "snippets.json"
-welcome_ch = ['welcome']
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -75,7 +74,7 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    channel = bot.get_channel(int(welcome_ch))
+    channel = discord.utils.get(member.guild.text_channels, name="vorstellungsrunde")
     if channel:
         await channel.send(f"Welcome to the Tech-Hood family, {member.mention}! 🎉")
 
