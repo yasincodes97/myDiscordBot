@@ -9,12 +9,13 @@ from server import stay_alive
 sec_token = os.environ['DISCORD_TOKEN']
 sec_channel = os.environ['CHANNEL_ID']
 snippets_path = "snippets.json"
+welcome_ch = ['welcome']
 
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
 bot = commands.Bot(command_prefix='<', intents=intents)
-
+#bruder 
 def setup_db():
     conn = sqlite3.connect("state.db")
     c = conn.cursor()
@@ -74,7 +75,7 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    channel = discord.utils.get(member.guild.text_channels, name="vorstellungsrunde")
+    channel = bot.get_channel(int(welcome_ch))
     if channel:
         await channel.send(f"Welcome to the Tech-Hood family, {member.mention}! 🎉")
 
