@@ -74,7 +74,7 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    channel = discord.utils.get(member.guild.text_channels, name="vorstellungsrunde")
+    channel = discord.utils.get(member.guild.text_channels, name="🤝・vorstellungsrunde")
     if channel:
         await channel.send(f"Welcome to the Tech-Hood family, {member.mention}! 🎉")
 
