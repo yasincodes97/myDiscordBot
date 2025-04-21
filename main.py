@@ -63,9 +63,15 @@ async def send_snippet():
         await asyncio.sleep(86400)  # 24h
 
 @bot.command()
+@commands.has_role("Admin")
 async def reset_index(ctx):
     save_state(0)
     await ctx.send("Index wurde auf 0 zurückgesetzt.")
+
+@reset_index.error
+async def reset_index_error(ctx, error):
+    if isinstance(error, commands.MissingRole):
+        await ctx.send("Du hast leider keine Rechte, diesen Befehl zu nutzen.")
 
 @bot.event
 async def on_ready():
