@@ -83,7 +83,7 @@ async def on_member_join(member):
     await asyncio.sleep(2)
     channel = discord.utils.get(member.guild.text_channels, name="🤝・vorstellungsrunde")
     if channel:
-        await channel.send(f"Welcome to the Tech-Hood family, {member.mention}! 🎉")
+        await channel.send(f"Welcome to the Tech-Hood fam, {member.mention} ! 🎉")
 
 @bot.command()
 async def ping(ctx):
